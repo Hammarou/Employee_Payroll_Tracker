@@ -7,7 +7,7 @@ Description:
 
 -Greetings! 
 
--This is my modification to the  JavaScript starter code initially provided in the assignement. I have not altered the original HTML and CSS languages.
+-This is my modification to the  JavaScript starter code initially provided in the assignement. I have not altered the original HTML and CSS languages provided.
 
 -It is my intention to enable the intended user (an associate/manager handling  employee payroll of a company) to view and manage employee payroll data. The user will be prompted to enter as many employees as the wish (they will be prompt to provide nominal background information about each employee; such as first and last names, and salary). From this, the user wil be able to acquire a list of all the employees (alonw with their infomation) they have entered; aswell as calculate the average employee salary.
 
@@ -16,7 +16,7 @@ Description:
 
 -Code Source:
 
-The code for this project can be found in JavaScript file located inside the Develop folder and WK2_Images folder. You'll be able to find all the separate files for different components or modules.
+The code for this project can be found in the script.js file located inside the Main folder. You'll be able to find all the code modifications made (along with notes to explain and clarify the mechanics of the code) .
 
 
 ## Usage
@@ -34,7 +34,9 @@ https://github.com/Hammarou/Employee_Payroll_Tracker/tree/main
 
 ## Credits
 
-N/A
+-The starter code can be obtained at:-
+
+The Coding Bootcamp: https://github.com/coding-boot-camp/curly-potato
 
 
 ## License
