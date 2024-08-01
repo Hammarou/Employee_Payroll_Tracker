@@ -1,5 +1,6 @@
 # Week3_Challenge
 
+
 # Employee Payroll Tracker
 
 Description:
@@ -28,14 +29,13 @@ To view and inspect my modifications, please navigate to the repository located 
 
 -The Github repo can be accessed at the following URL: 
 
-
-
-
+https://github.com/Hammarou/Employee_Payroll_Tracker/tree/main
 
 
 ## Credits
 
 N/A
+
 
 ## License
 
