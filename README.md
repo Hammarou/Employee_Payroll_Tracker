@@ -20,13 +20,15 @@ The code for this project can be found in JavaScript file located inside the Dev
 
 ## Usage
 
-To view and inspect my modifications, please access the JavaScript file locatied in the Develop folder.
+To view and inspect my modifications, please navigate to the repository located at Github.com (url link provided below), then access the JavaScript file locatied in the Develop folder.
 
--The deployed webpage can be accessed at following URL:
+-The deployed webpage can be accessed at the following URL:
 
 
 
--To view and inspect my modifications, please access the online file locatied in Github.com.
+-The Github repo can be accessed at the following URL: 
+
+
 
 
 
