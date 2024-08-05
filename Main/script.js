@@ -9,7 +9,7 @@ const collectEmployees = function() {
 
   let addEmployee = true;
   
-  // Loop is continuous until user nolonger wishes to add an employee 
+  // Loop is continuous until user no longer wishes to add an employee 
      while (addEmployee == true) {   
         
         // User is promptoed to input employee name info

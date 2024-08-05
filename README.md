@@ -1,10 +1,8 @@
 
-# Week3_Challenge
-
-
 # Employee Payroll Tracker
 
-Description:
+
+## Description:
 
 -Greetings! 
 
@@ -30,14 +28,14 @@ Please feel free to access the Github repository where all the requisite files a
 
 -The Github repo can be accessed at the following URL: 
 
-https://github.com/Hammarou/Employee_Payroll_Tracker/tree/main
+https://github.com/Hammarou/Employee_Payroll_Tracker/
 
 
 ## Credits
 
 -The starter code can be obtained at: -
 
-The Coding Bootcamp: https://github.com/coding-boot-camp/curly-potato
+The Coding Bootcamp: https://github.com/coding-boot-camp/curly-potato/
 
 
 ## License
