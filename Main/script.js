@@ -4,15 +4,15 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 // Collect employee data
 const collectEmployees = function() {
 
-  // employeeArray IS CREATED AS AN ARRAY TO ACT AS PLACEHOLDER TO COLLECT EMPLOYEE DATA
+  // employeeArray is created as an array to act as placeholder for collecting employee data 
   let employeesArray = [];
 
   let addEmployee = true;
   
-  // LOOP IS CONTINUOUS UNTIL USER NOLONGER WISHES TO ADD AN EMPLOYEE
+  // Loop is continuous until user nolonger wishes to add an employee 
      while (addEmployee == true) {   
         
-        // USER IS PROMPTED TO INPUT EMPLOYEE NAME INFO
+        // User is promptoed to input employee name info
         const firstNameInfo = prompt('Enter employee first name:');
         const lastNameInfo = prompt('Enter employee last name:');
       
@@ -22,22 +22,22 @@ const collectEmployees = function() {
           salary = 0;
           };
         
-        // employeeInfo OBJECT CREATED TO STORE COMPLETED EMPLOYEE INFORMATION
+        // employeeInfo object created to store completed employee information
         const employeeInfo = { 
           firstName: firstNameInfo,
           lastName: lastNameInfo,
           salary,
         };
 
-      // employeeInfo OBJECT ADDED TO employeeArray 
+      // employeeInfo object added to employeeArray 
       employeesArray.push(employeeInfo);
   
-      // USER ASKED TO CONFIRM IF THEY WISH TO ADD ANY MORE EMPLOYEES
+      // User asked to confirm if they wish to add any more employees 
       addEmployee = confirm('Would you like to add another employee?');
     
     }; 
 
-    // EMPLOYEE DATA RETUENED
+    // Employee data returned 
     return employeesArray;
 
 };
@@ -54,9 +54,10 @@ for(let i = 0; i < size; i++) {
 
 // Average employee salary:
 totalEmployeeSalary /= size
+console.log(totalEmployeeSalary);
 return totalEmployeeSalary
  
-}
+};
 
 
 // Select a random employee
@@ -65,11 +66,12 @@ const getRandomEmployee = function(employeesArray) {
   let min = 0;
   let max = employeesArray.length;
   let index = parseInt(Math.random()*(max - min + 1)+ min);
+  console.log("index", index)
 
   let randomEmployee = employeesArray[index];
 
   
-  console.log("First Name: " + randomEmploee.firstName + " Last Name: " + randomEmployee.lastName + " salary: " + randomEmployee.salary)
+  console.log("First Name: " + randomEmployee.firstName + " Last Name: " + randomEmployee.lastName + " salary: " + randomEmployee.salary)
 
 };
 
@@ -111,8 +113,8 @@ const displayEmployees = function(employeesArray) {
     newTableRow.append(salaryCell);
 
     employeeTable.append(newTableRow);
-  }
-}
+  };
+};
 
 const trackEmployeeData = function() {
   const employees = collectEmployees();
@@ -130,11 +132,11 @@ const trackEmployeeData = function() {
       return -1;
     } else {
       return 1;
-    }
+    };
   });
 
   displayEmployees(employees);
-}
+};
 
 // Add event listener to 'Add Employees' button
 addEmployeesBtn.addEventListener('click', trackEmployeeData);
