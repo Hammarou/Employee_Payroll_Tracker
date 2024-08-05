@@ -22,14 +22,9 @@ The code for this project can be located in the script.js file located inside th
 
 Please feel free to access the Github repository where all the requisite files and folders are located. Alternatively, to view the deployed application, please navigate to the deployed application webpage (URL link provided below). then access the JavaScript file located in the Develop folder.
 
--The deployed webpage can be accessed at the following URL:
+-The deployed webpage can be accessed at the following URL: https://hammarou.github.io/Employee_Payroll_Tracker/
 
-https://hammarou.github.io/Employee_Payroll_Tracker/
-
-
--The Github repo can be accessed at the following URL: 
-
-https://github.com/Hammarou/Employee_Payroll_Tracker/
+-The Github repo can be accessed at the following URL: https://github.com/Hammarou/Employee_Payroll_Tracker/
 
 
 ## Credits
