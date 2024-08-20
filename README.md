@@ -15,7 +15,7 @@
 
 -Code Source:
 
-The code for this project can be located in the script.js file located inside the Main folder. There you'll be able to inspect the code modifications, along with written comments to explain and clarify the mechanics of the code.
+The code for this project can be found in the script.js file located inside the Main folder. There you'll be able to inspect the code modifications, along with written comments to explain and clarify the mechanics of the code.
 
 
 ## Usage
